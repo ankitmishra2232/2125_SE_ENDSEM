@@ -16,7 +16,9 @@ public class WardRobes_Store {
 		BasicWardrobes wardrobes = new RealWood();
 		wardrobes = new ExtraSelf(wardrobes);
 		wardrobes =new Drawer(wardrobes);
-		System.out.println(wardrobes.getDescription() + " rupp " + wardrobes.ThreeDoorcost());
+		wardrobes =new Mirror(wardrobes);
+		wardrobes =new Locker(wardrobes);
+		System.out.println(wardrobes.getDescription() + " rupp " + wardrobes.TwoDoorcost());
 
 	}
 

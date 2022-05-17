@@ -6,6 +6,9 @@ package com.sea.design;
  */
 public class Metal extends BasicWardrobes {
 
+	public Metal () {
+		description = "Metal";
+	}
 	public double TwoDoorcost() {
 		return 70000.0;
 	}
